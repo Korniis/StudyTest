@@ -11,13 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fff", "fff\fff.csproj", "{9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yibbuweituo", "yibbuweituo\yibbuweituo.csproj", "{06D60173-ED5D-4227-8155-FD55610E8341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asyncyuanli", "asyncyuanli\asyncyuanli.csproj", "{C88E755B-7D16-4E03-92B1-5C99D3E0C05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asyncyuanli", "asyncyuanli\asyncyuanli.csproj", "{C88E755B-7D16-4E03-92B1-5C99D3E0C05E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程切换", "线程切换\线程切换.csproj", "{846DFC4E-C061-4B54-9DE9-866BB9CA5C7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "线程切换", "线程切换\线程切换.csproj", "{846DFC4E-C061-4B54-9DE9-866BB9CA5C7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步方法不等于多线程", "异步方法不等于多线程\异步方法不等于多线程.csproj", "{194CEC3C-B4F6-4906-82D8-8BACA7D0C682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异步方法不等于多线程", "异步方法不等于多线程\异步方法不等于多线程.csproj", "{194CEC3C-B4F6-4906-82D8-8BACA7D0C682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "没有async的异步", "没有async的异步\没有async的异步.csproj", "{FE21D7D7-AFE2-4AF2-876E-19E6774177F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "没有async的异步", "没有async的异步\没有async的异步.csproj", "{FE21D7D7-AFE2-4AF2-876E-19E6774177F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yibuSleep", "yibuSleep\yibuSleep.csproj", "{302273FF-5B8B-47DF-8A20-2A324451153D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yibuxiuxi", "yibuxiuxi\yibuxiuxi.csproj", "{A861A587-9437-4623-A051-AA9E0841DCC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "qiao", "qiao\qiao.csproj", "{A3206BAE-78F9-4EE5-9B34-225CC1955117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationtest01", "WebApplicationtest01\WebApplicationtest01.csproj", "{6963F094-422E-4E4A-8324-3DF85E7F26BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationTets", "WebApplicationTets\WebApplicationTets.csproj", "{9B726626-7AD9-4DE2-87F4-4353A51564E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{FE21D7D7-AFE2-4AF2-876E-19E6774177F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE21D7D7-AFE2-4AF2-876E-19E6774177F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE21D7D7-AFE2-4AF2-876E-19E6774177F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302273FF-5B8B-47DF-8A20-2A324451153D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302273FF-5B8B-47DF-8A20-2A324451153D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302273FF-5B8B-47DF-8A20-2A324451153D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302273FF-5B8B-47DF-8A20-2A324451153D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A861A587-9437-4623-A051-AA9E0841DCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A861A587-9437-4623-A051-AA9E0841DCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A861A587-9437-4623-A051-AA9E0841DCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A861A587-9437-4623-A051-AA9E0841DCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3206BAE-78F9-4EE5-9B34-225CC1955117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3206BAE-78F9-4EE5-9B34-225CC1955117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3206BAE-78F9-4EE5-9B34-225CC1955117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3206BAE-78F9-4EE5-9B34-225CC1955117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6963F094-422E-4E4A-8324-3DF85E7F26BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6963F094-422E-4E4A-8324-3DF85E7F26BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6963F094-422E-4E4A-8324-3DF85E7F26BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6963F094-422E-4E4A-8324-3DF85E7F26BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B726626-7AD9-4DE2-87F4-4353A51564E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B726626-7AD9-4DE2-87F4-4353A51564E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B726626-7AD9-4DE2-87F4-4353A51564E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B726626-7AD9-4DE2-87F4-4353A51564E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

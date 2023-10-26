@@ -5,9 +5,8 @@
         static async Task Main(string[] args)
         {
             Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
-            double r= await DecimalAsync(500);
+            double r = await DecimalAsync(500);
             await Console.Out.WriteLineAsync($"r={r}");
-            
         }
         public static async Task<double> DecimalAsync(int n)
         {
@@ -16,9 +15,7 @@
              Random random = new Random();
              for (int i = 0; i < n * n; i++)
              {
-
                  result += random.NextDouble();
-
              }
              return result;*/
             return await Task.Run(() =>
@@ -28,14 +25,10 @@
                 Random random = new Random();
                 for (int i = 0; i < n * n; i++)
                 {
-
                     result += random.NextDouble();
-
                 };
                 return result;
-
             });
-
         }
     }
 }
