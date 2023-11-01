@@ -22,5 +22,10 @@ namespace WinFormsApp1
             string s = await File.ReadAllTextAsync(@"D:\ddd.txt");
             MessageBox.Show(s);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

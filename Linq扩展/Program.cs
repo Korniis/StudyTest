@@ -1,16 +1,10 @@
-﻿namespace yibuSleep
+﻿namespace Linq扩展
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("Hello, World!");
         }
-
-    }
-    interface ITest
-    {
-          Task<int>  Run();
-
     }
 }
