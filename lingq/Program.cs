@@ -28,13 +28,28 @@
             list.Add(employee4);
             var item1 = list.Count(e => e.salary > 100);
             Console.WriteLine(item1);
-            var e1 = list.Single( e=>e.Id==123);
+            var e1 = list.First( e=>e.Id==122143);
+            var item2 = list.OrderBy(e => e.Age).OrderByDescending(e=>e.salary);
             Console.WriteLine(e1);
             Console.WriteLine(list.Any(e=>e.Gender==false ));
-            /*   foreach (var item in item1)
-               {
-                   Console.WriteLine(item);
-               }*/
+            foreach (var item in item2)
+            {
+                Console.WriteLine(item);
+            }
+            int[] nums = new int[] { 1, 2, 3,2,6,7,42, };
+            var num2 = nums.OrderBy(e=>Guid.NewGuid());
+            Console.WriteLine(num2.ToString());
+            foreach (var item in num2)
+            {
+                Console.WriteLine(item);
+            }
+            var item3 = list.OrderBy(e => e.Age).ThenBy(e=>e.salary);
+            var item4 = list.Skip(3).Take(2);
+
+            foreach (var item in item4)
+            {
+                Console.WriteLine(item);
+            }
 
         }
     }
