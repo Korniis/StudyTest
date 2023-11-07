@@ -50,6 +50,20 @@
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine(list.Where(e=>e.Id>6).Min(e=>e.Age));
+            var items1 = list.GroupBy(e => e.salary);
+
+            foreach (var items3 in items1)
+            {
+                Console.WriteLine(items3.Key);
+                foreach (var item in items3)
+                {
+                    Console.WriteLine(item);
+                }
+
+            }
+            var ke = list.Where(e=>e.salary>1200).MaxBy(e=>e.Id);
+            Console.WriteLine(ke);
 
         }
     }
