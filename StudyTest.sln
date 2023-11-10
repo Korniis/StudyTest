@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq扩展", "Linq扩展\Linq扩展.csproj", "{5CCAA42B-E7FC-45A8-9609-05534B81F894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lingq", "lingq\lingq.csproj", "{AEE5A034-591E-420E-9DA1-00BF8442F4FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lingq", "lingq\lingq.csproj", "{AEE5A034-591E-420E-9DA1-00BF8442F4FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqMS", "LinqMS\LinqMS.csproj", "{3E59EB0D-33AC-4EF9-A5D5-569BC0BCA386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC", "IOC\IOC.csproj", "{636F51E2-D0CA-46AC-BDFE-B8E56B4F0B74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{AEE5A034-591E-420E-9DA1-00BF8442F4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEE5A034-591E-420E-9DA1-00BF8442F4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEE5A034-591E-420E-9DA1-00BF8442F4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E59EB0D-33AC-4EF9-A5D5-569BC0BCA386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E59EB0D-33AC-4EF9-A5D5-569BC0BCA386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E59EB0D-33AC-4EF9-A5D5-569BC0BCA386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E59EB0D-33AC-4EF9-A5D5-569BC0BCA386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636F51E2-D0CA-46AC-BDFE-B8E56B4F0B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636F51E2-D0CA-46AC-BDFE-B8E56B4F0B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636F51E2-D0CA-46AC-BDFE-B8E56B4F0B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636F51E2-D0CA-46AC-BDFE-B8E56B4F0B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
